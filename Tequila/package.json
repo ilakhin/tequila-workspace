@@ -1,0 +1,21 @@
+{
+  "name": "com.il.tequila",
+  "version": "0.1.0",
+  "description": "Unity useful tools.",
+  "displayName": "Tequila",
+  "author": {
+    "name": "Iaroslav Lakhin",
+    "email": "iaroslav.lakhin@gmail.com"
+  },
+  "keywords": [
+    "Extensions",
+    "Utilities"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.9",
+    "com.unity.ugui": "1.0.0"
+  },
+  "unity": "2020.1",
+  "unityRelease": "0a10"
+}
