@@ -16,5 +16,12 @@ namespace IL.Tequila
         {
             return (T)instance;
         }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static T? ToNullable<T>(this T instance)
+            where T : struct
+        {
+            return instance;
+        }
     }
 }
